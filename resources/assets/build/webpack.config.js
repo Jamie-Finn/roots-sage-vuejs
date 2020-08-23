@@ -170,8 +170,6 @@ let webpackConfig = {
       jQuery: 'jquery',
       'window.jQuery': 'jquery',
       Popper: 'popper.js/dist/umd/popper.js',
-      axios: 'axios',
-      'window.axios': 'axios',
     }),
     new webpack.LoaderOptionsPlugin({
       minimize: config.enabled.optimize,

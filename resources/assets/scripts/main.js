@@ -1,8 +1,6 @@
 // import external dependencies
 import Vue from 'vue';
 import 'jquery';
-import 'axios';
-window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 // Import everything from autoload
 import './autoload/**/*'
